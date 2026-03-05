@@ -12,7 +12,6 @@ def main():
     print(q)
     return(render_template("main.html"))
 
-
 @app.route("/ethics",methods=["GET","POST"])
 def ethics():
     return(render_template("ethics.html"))
