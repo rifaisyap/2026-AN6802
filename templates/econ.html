@@ -1,0 +1,21 @@
+<!-- <h2>Welcome to AN6802 Financial Web Application</h2> -->
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <p>Please enter your weekly salary: </p>
+        <form action="/foodExp" method="post">
+            <input type="number" step="1" name="q">
+            <input type="submit" value="Enter">
+        </form>
+
+    </div>
+
+</body>
