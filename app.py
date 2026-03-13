@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import os
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 model = joblib.load("foodexp.pkl")
 app = Flask(__name__)
